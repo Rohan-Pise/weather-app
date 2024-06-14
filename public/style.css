@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+.box{
+  background-color:#648DE5;
+  height: 60vh;
+  width: 30vw;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.2rem 3rem rgba(0,0,0,0.2);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.weathercon{
+  margin-bottom:3rem;
+  margin-top: 3rem;
+  font-size:28px;
+}
+
+.info{
+  background-color:#9EB7E5 ;
+  border-radius: 10%;
+  margin-bottom: 1.5rem;
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  box-shadow: 0 0.2rem 3rem lightblue;
+
+}
+p{
+  font-size: small;
+}
+
+.tempmin_max{
+  font-size: medium;
+  font-weight: lighter;
+}
+.input{
+  margin-top: 3rem;
+  background-color: #e8bd61;
+  height:20vh ;
+  width:35vw ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  box-shadow: 0rem 0.2rem 2rem #9EB7E5 ;
+}
+button{
+  align-self: center;
+  background-color: rgb(19, 152, 19);
+  border: none;
+  border-radius: 3rem;
+  width:35vw;
+  margin-top: 0.8rem;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+}
